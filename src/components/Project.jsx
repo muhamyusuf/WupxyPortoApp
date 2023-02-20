@@ -14,7 +14,9 @@ const ProjectContent = () => {
         <h1 className="text-2xl mb-5">Project</h1>
       </div>
       <div className="flex flex-wrap w-full items-center justify-center gap-5">
-        <p className="bg-dark p-5 rounded-lg shadow-lg cursor-pointer text-light hover:bg-dark_secondary transition">Wedding Party Web</p>
+        <a href="https://wedding-premium.vercel.app">
+          <p className="bg-dark p-5 rounded-lg shadow-lg cursor-pointer text-light hover:bg-dark_secondary transition">Wedding Party Web</p>
+        </a>
         <p className="bg-dark p-5 rounded-lg shadow-lg cursor-pointer text-light hover:bg-dark_secondary transition">School Web</p>
         <p className="bg-dark p-5 rounded-lg shadow-lg cursor-pointer text-light hover:bg-dark_secondary transition">Web UMKM</p>
         <p className="bg-dark p-5 rounded-lg shadow-lg cursor-pointer text-light hover:bg-dark_secondary transition">Web Portofolio</p>
