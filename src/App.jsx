@@ -5,12 +5,12 @@ const App = () => {
   return(
   <div className="w-full h-[100vh] overflow-hidden flex flex-col items-center justify-center gap-1">
     <Navbar className="fixed"/>
-    <div className="flex flex-wrap w-full justify-center items-center gap-2" id="container1">
+    <div className="flex w-full justify-center items-center gap-2" id="container1">
       <Intro/>
       <About/>
     </div>
     
-    <div className="flex flex-wrap w-full justify-center items-center gap-2" id="container2">
+    <div className="flex w-full justify-center items-center gap-2" id="container2">
       <Skill/>
       <Project/>
     </div>
